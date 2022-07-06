@@ -1,0 +1,409 @@
+.news{
+    /* noticias */
+
+
+    position: absolute;
+    width: 178px;
+    height: 41px;
+    left: 871px;
+    top: 2526px;
+
+    /* Titular G */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    /* or 111% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    /* Style */
+
+    color: #333333;
+}
+
+.v1{
+    /* Vector 8 */
+
+    position:absolute;
+    width: 557px;
+    height: 0px;
+    left: 277px;
+    top: 2086px;
+ 
+
+    /* 60 */
+
+    border: 2px solid #8F9CA2;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.tittle{
+    /* noticias */
+
+
+    position: absolute;
+    width: 178px;
+    height: 41px;
+    left: 871px;
+    top: 2066px;
+    
+    /* Titular G */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    /* or 111% */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    /* Style */
+    
+    color: #455A64;}
+
+.v2{
+    /* Vector 9 */
+
+    position: absolute;
+    width: 557px;
+    height: 0px;
+    left: 1075px;
+    top: 2086px;
+    
+    /* 60 */
+    
+    border: 2px solid #8F9CA2;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 1;
+}
+
+.v3{    
+    /* Vector 8 */
+
+    position:absolute;
+    width: 280px;
+    height: 0px;
+    left: 627px;
+    top:2478px;
+ 
+
+    /* 60 */
+    border: 2px solid #B5BDC1;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.v4{
+    /* Vector 8 */
+
+    position:absolute;
+    width: 280px;
+    height: 0px;
+    left: 1357px;
+    top:2478px;
+     
+    
+    /* 60 */
+    border: 2px solid #B5BDC1;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.button{
+    position:absolute;
+    top: 2553px;
+    left: 926px;
+    border-color: #B5BDC1;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    border: 2px solid #B5BDC1;
+    border-color: #B5BDC1;
+    /*background-color: white;*/
+    color: #B5BDC1;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    
+    width: 120px;
+    height: 51px;
+    
+    /* Text B */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 144% */
+}
+
+.date1{
+    /* noticia • jun 13, 2022 */
+
+
+    position: absolute;
+
+    left: 627px;
+    top: 2166px;
+    width: 311px;
+    height: 21px;
+    /*left: 53.09%;*/
+    right: 0%;
+    /*top: 0%;*/
+    bottom: 93.27%;
+    
+    /* Cap */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 168% */
+    
+    text-transform: uppercase;
+    color: #97463B;
+}
+
+.date2{
+    /* noticia • jun 13, 2022 */
+
+
+    position: absolute;
+
+    left: 1357px;
+    top: 2166px;
+    width: 311px;
+    height: 21px;
+
+    /*left: 53.09%;*/
+    right: 0%;
+    /*top: 0%;*/
+    bottom: 93.27%;
+    
+    /* Cap */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 168% */
+    
+    text-transform: uppercase;
+    color: #97463B;
+}
+
+.img1{
+    left: 277px;
+    top: 2166px;
+    width: 312px;
+    height: 312px;
+
+    position: absolute;
+    
+    background: url(1.jpg);
+
+}
+
+.img2{
+
+    left: 1007px;
+    top: 2166px;
+    width: 312px;
+    height: 312px;
+
+    position: absolute;
+    background: url(2.jpg);
+}
+
+.tittle1{
+
+    position: absolute;
+    left: 627px;
+    top: 2190px;
+    width: 311px;
+    height: 85px;
+
+    /*left: 53.09%;*/
+    right: 0%;
+    /*top: 6.73%;*/
+    bottom: 66.03%;
+
+    /* Titular P */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    /* 100 */
+
+    color: #455A64;
+}
+
+.desc1{
+
+    position: absolute;
+    left: 627px;
+    top: 2299px;
+    width: 311px;
+    height: 101px;
+    /*
+    position: absolute;
+    left: 53.09%;
+    right: 0%;
+    top: 41.67%;
+    bottom: 25.96%;*/
+    
+    /* Cuerpo de texto */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 144% */
+    
+    
+    /* 100 */
+    
+    color: #455A64;
+}
+
+.seeMore1{
+    /* LEER MÁS */
+
+    position: absolute;
+    left: 610px;
+    top: 2436px;
+    width: 75px;
+    height: 21px;
+    
+    /* Text B */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 144% */
+    
+    text-align: right;
+    color: #97463B;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+
+.tittle2{
+
+    position: absolute;
+    left: 1357px;
+    top: 2190px;
+    width: 311px;
+    height: 85px;
+
+    /*left: 53.09%;*/
+    right: 0%;
+    /*top: 6.73%;*/
+    bottom: 66.03%;
+
+    /* Titular P */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    /* 100 */
+
+    color: #455A64;
+}
+
+.desc2{
+
+    position: absolute;
+    left: 1357px;
+    top: 2299px;
+    width: 311px;
+    height: 101px;
+    
+    /* Cuerpo de texto */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 144% */
+    
+    
+    /* 100 */
+    
+    color: #455A64;
+}
+
+.seeMore2{
+    /* LEER MÁS */
+
+    position: absolute;
+    left: 1340px;
+    top: 2436px;
+    width: 75px;
+    height: 21px;
+    
+    /* Text B */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 144% */
+    
+    text-align: right;
+    color: #97463B;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+

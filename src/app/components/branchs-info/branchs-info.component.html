@@ -1,0 +1,45 @@
+<span class="v1"></span>
+<span class="v2"></span>
+<span class="tittle">{{'subheader.branchs' | translate}}</span>
+<span class="desc1">{{'branchs.generalC' | translate}}</span>
+<span class="subDesc1">{{'branchs.contacts1' | translate}} <br> {{'branchs.contacts2' | translate}}</span>
+<span class="island">
+</span>
+
+
+<button mat-button class="provincesSelect" [matMenuTriggerFor]="menu">
+    <p class="province"> <b>{{provinceSelected}}</b></p>
+    <mat-icon matSuffix>keyboard_arrow_down</mat-icon>        
+</button>
+<mat-menu #menu="matMenu">
+    <button class="label" mat-menu-item (click)="selectUpdate(prov)" *ngFor="let prov of provinces" [value]="prov">
+        {{prov}} 
+    </button>
+</mat-menu>
+
+<span class="tittle2">{{'branchs.desc1' | translate}} <br> {{'branchs.desc2' | translate}} </span>
+<span class="desc2">{{'branchs.house' | translate}}</span>
+<span class="addressO">{{'branchs.phone' | translate}} <br> {{'branchs.email' | translate}} </span>
+<span class="tittle3">{{'branchs.desc3' | translate}} <br> {{'branchs.desc4' | translate}} </span>
+<span class="addressO1">{{'branchs.phone1' | translate}} <br> {{'branchs.email1' | translate}} </span>
+<span class="tittle4">{{'branchs.desc5' | translate}} </span>
+<span class="addressO2">{{'branchs.phone2' | translate}} <br> {{'branchs.email2' | translate}} </span>
+<span class="tittle5">{{'branchs.desc6' | translate}} </span>
+<span class="addressO3">{{'branchs.phone3' | translate}} <br> {{'branchs.email3' | translate}} </span>
+
+<span class="pr" *ngIf="provinceSelected==provinces[0]"></span>
+<span class="art" *ngIf="provinceSelected==provinces[1]"></span>
+<span class="lh" *ngIf="provinceSelected==provinces[2]"></span>
+<span class="may" *ngIf="provinceSelected==provinces[3]"></span>
+<span class="mt" *ngIf="provinceSelected==provinces[4]"></span>
+<span class="cf" *ngIf="provinceSelected==provinces[5]"></span>
+<span class="vc" *ngIf="provinceSelected==provinces[6]"></span>
+<span class="ss" *ngIf="provinceSelected==provinces[7]"></span>
+<span class="ca" *ngIf="provinceSelected==provinces[8]"></span>
+<span class="gy" *ngIf="provinceSelected==provinces[9]"></span>
+<span class="lt" *ngIf="provinceSelected==provinces[10]"></span>
+<span class="gn" *ngIf="provinceSelected==provinces[11]"></span>
+<span class="hl" *ngIf="provinceSelected==provinces[12]"></span>
+<span class="st" *ngIf="provinceSelected==provinces[13]"></span>
+<span class="gt" *ngIf="provinceSelected==provinces[14]"></span>
+<span class="ij" *ngIf="provinceSelected==provinces[15]"></span>

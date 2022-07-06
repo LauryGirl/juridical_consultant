@@ -1,0 +1,14 @@
+
+  <button mat-button (click)="gotoHome()">
+    <mat-icon>keyboard_backspace</mat-icon>
+  </button>
+  
+
+  <h2>News</h2>
+  <ul class="news">
+    <li *ngFor="let new of news$ | async" [class.selected]="new.id === selectedId">
+      <a [routerLink]="['/new', new.id]">
+        <span class="badge">{{new.id}}</span> {{new.tittle}}
+      </a>
+    </li>
+  </ul>

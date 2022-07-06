@@ -1,0 +1,98 @@
+{
+    "language": {
+        "english": "Ingles",
+        "spanish": "Espannol"
+    },
+    "login": {
+        "login":"Iniciar sesion",
+        "loginTittle": "Autenticación",
+        "register":"Registrarse",
+        "notRecognized": "El correo o la contrasenna no son reconocidos",
+        "emailNotValid": "Por favor, introduzca un correo electronico valido",
+        "passwordNotValid": "Por favor, introduzca una contrasenna valida",
+        "namePlaceHolder": "NOMBRE",
+        "lastNamePlaceHolder": "APELLIDOS",
+        "emailPlaceHolder": "CORREO ELECTRONICO",
+        "passwordPlaceHolder": "CONTRASENNA",
+        "repeatPassPlaceHolder": "REPETIR CONTRASENNA",
+        "passwordForget": "Olvidé mi contraseña",
+        "withoutAccount": "¿No tienes cuenta?",
+        "withAccount": "¿Tienes una cuenta?",
+        "createAccount": "Crear cuenta"
+    },
+    "Status": {
+        "title": "Estado de sus trámites",
+        "description1": "Regístrese en CJI ",
+        "description2": "y consulte el estado de sus trámites encargados online.",
+        "see": "VER ESTADO"
+    },
+    "subheader": {
+        "legalServices": "Servicios Legales",
+        "news": "Noticias",
+        "aboutUs": "Sobre nosotros",
+        "contactI": "Contactos de interes",
+        "branchs": "SUCURSALES",
+        "offices": "OFICINAS",
+        "years": "AÑOS DE EXPERIENCIA",
+        "faq": "faq",
+        "contactUs": "Contactenos"
+    },
+    "services": {
+        "findTittle": "¿SOBRE qué servicio desea SABER?",
+        "legalAssistance": "Asistencia legal",
+        "notarial": "Notariales",
+        "docImmigration": "Tramites migratorios documentales",
+        "onlineS": "servicios online",
+        "aboutTheme": "SOBRE EL TEMA",
+        "seeMore": "VER MÁS",
+        "readMore": "LEER MÁS",
+        "knowMore": "CONOCE MÁS",
+        "onlineDesc1": "Si desea contratar y pagar nuestros servicios",
+        "onlineDesc2": "DESDE EL EXTERIOR",
+        "onlineDesc3": "puede contactarnos a través del correo electrónico:"
+    },
+    "branchs":{
+        "generalC": "Contactos generales",
+        "contacts1": "Correo Institucional: cji@cji.cu",
+        "contacts2": "Correo de servicios online: serviciostmd@cji.cu",
+        "desc1": "SUCURSALES DE CONSULTORÍA",
+        "desc2": "JURÍDICA INTERNACIONAL",
+        "house": "Casa Matriz",
+        "phone": "Teléfonos: 720669603 y 72018402",
+        "email": "Correo: cji@cji.cu",
+        "desc3": "Sucursal de Atención a los Servicios de",
+        "desc4": "Trámites Migratorios y Documentales.",
+        "phone1": "Teléfono: 72069643. Atención a la población: 72045702",
+        "email1": "Correo: gquintana@cji.cu.",
+        "desc5": "Sucursal de Asistencia Legal",
+        "phone2": "Teléfono: 72041983, 72069602",
+        "email2": "Correo: dalegal@cji.cu",
+        "desc6": "Sucursal de Servicios Notariales",
+        "phone3": "Teléfonos. 72063244, 72069265, 72063249, 72069266.",
+        "email3": "Correo: alena@cji.cu"
+    },
+    "questions":{
+        "tittle": "Preguntas frecuentes"
+    },
+    "counting":{
+        "counting": "contamos con",
+        "about":"Consultoría Jurídica Internacional es un bufete cubano especializado que ofrece a sus clientes seguridad, rapidez, calidad, atención personalizada e individualización de los servicios de asistencia y asesoría legal en todas las ramas de derecho, servicios notariales y la solución de sus trámites migratorios y documentales a personas naturales y jurídicas, cubanas y extranjeras con residencia dentro y fuera de Cuba, cumpliendo la legislación vigente."
+    },
+    "base":{
+        "links": "Enlaces de interes",
+        "gaceta": "Gaceta oficial de Cuba",
+        "stadistics": "Estadisticas"
+    },
+    "legalAssistanceT":{
+        "desc": "En cada caso las Tarifas aplicables para cada uno de los servicios contratados se establecen conforme a lo regulado en la legislación cubana vigente.",
+        "findTittle": "buscar asistencia legal"
+    },
+    "notarial":{
+        "desc": "Servicios que se prestan a las personas naturales cubanas con residencia permanente en el exterior, a las personas extranjeras que no ostentan la condición de residentes permanentes en el territorio nacional y a personas jurídicas bajo las modalidades de sociedades mercantiles de capital totalmente extranjero y las sucursales o representaciones de entidades extranjeras radicadas en el territorio nacional.",
+        "findTittle": "buscar notariales"
+    },
+    "docInmigration":{
+        "desc": "En cada caso las Tarifas aplicables para cada uno de los servicios contratados se establecen conforme a lo regulado en la legislación cubana vigente.",
+        "findTittle": "BUSCAR TRÁMITE MIGRATORIO O DOCUMENTAL"
+    }
+}

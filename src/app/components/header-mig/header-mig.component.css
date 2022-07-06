@@ -1,0 +1,363 @@
+.logo{
+    width: 100px;
+    height: 35.95px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.iw{
+    /*  */
+
+
+    width: 24px;
+    height: 21px;
+    
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    /* identical to box height, or 84% */
+    
+    
+    /* 100 */
+    
+    color: #455A64;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+
+.ia{
+    /*  */
+
+
+    width: 24px;
+    height: 21px;
+    
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    /* identical to box height, or 84% */
+    
+    
+    /* 100 */
+    
+    color: #455A64;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.language{
+    /* LEER MÁS */
+
+
+    width: 54px;
+    height: 29px;
+
+    /* Titular P */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+
+    /* 100 */
+
+    color: #455A64;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    width: 54px;
+    height: 29px;
+}
+
+.v{
+    width: 0px;
+    height: 48px;
+    
+    /* Style */
+    
+    border: 2px solid #455A64;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.in{
+    /* Ellipse 1 */
+
+    width: 25px;
+    height: 25px;
+
+    /* 100 */
+    
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    /* identical to box height, or 84% */
+    
+    
+    /* 100 */
+    
+    color: #455A64;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    
+}
+
+.header{
+    /* Recurso 1 1 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 23px 24px;
+    gap: 24px;
+
+    position: absolute;
+    max-width: 100%;
+    width: 1920px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+
+    /* #333333 */
+
+    background: #FFFFFF;
+}
+
+.square{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 24px;
+    
+    width: 1366px;
+    max-width: 100%;
+    height: 54.01px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+.menu1{
+    position: absolute;
+    top:90px;
+    left:0px;
+    height: 56px;
+    width:1920px;
+    max-width: 100%;
+    background: #ECEEEF;;
+}
+
+.item{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    text-transform: uppercase;
+
+    /* #333333 */
+
+    color: #455A64;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.v3{/* Vector 41 */
+
+
+    width: 0px;
+    height: 36px;
+    
+    /* 100 */
+    
+    border: 1px solid #455A64;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.icon{
+    /*  */
+
+
+    width: 29px;
+    height: 20px;
+    
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 20px;
+    /* or 63% */
+    
+    text-align: center;
+    
+    /* 100 */
+    
+    color: #455A64;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+
+.servD{
+    /* Asistencia legal */
+    
+    width: 50px;
+    height: 30px;
+    padding: 0%;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 156% */
+        
+    text-transform: uppercase;
+        
+    /* 100 */
+        
+    color: #455A64;
+        
+        
+    /* Inside auto layout */
+        
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+    
+.imgPos{
+    /* consulting-with-lawyer 1 */
+
+
+    position: absolute;
+    width: 1924.37px;
+    max-width: 100%;
+    height: 440px;
+    left: 0px;
+    top: 145px;
+    
+    background: url(16.jpg);
+    /*background-color: aqua;*/
+}
+
+.rectangle{
+    /* Rectangle 35 */
+
+    position: absolute;
+    width: 706px;
+    height: 330px;
+    left: 0px;
+    top: 255px;
+    
+    /* Style 2 */
+    
+    background: #455A64;
+}
+
+.tittle{
+    /* asistencia legal */
+
+    position: absolute;
+    width: 411px;
+    height: 81px;
+    left: 279px;
+    top: 290px;
+    
+    /* Titular G */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    /* or 111% */
+    
+    text-transform: uppercase;
+    
+    /* #333333 */
+    
+    color: #FFFFFF;
+}
+
+.desc{
+    /* En cada caso las Tarifas aplicables para cada uno de los servicios contratados se establecen conforme a lo regulado en la legislación cubana vigente. */
+
+
+    position: absolute;
+    width: 388px;
+    height: 61px;
+    left: 277px;
+    top: 450px;
+    
+    /* Cuerpo de texto */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 144% */
+    /* #333333 */
+
+    color: #FFFFFF;
+}

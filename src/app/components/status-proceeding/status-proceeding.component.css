@@ -1,0 +1,138 @@
+.box{
+    /* Rectangle 35 */
+
+    position: absolute;
+    width: 706px;
+    height: 243px;
+    left: 0px;
+    top: 442px;
+    
+    /* Style 2 */
+    
+    background: linear-gradient(0deg, #455A64, #455A64), #000000;
+}
+
+.imgBack{
+    /* male-freelancer-businessman-businessman-working-cafe */
+
+
+    position: absolute;
+    max-width: 100%;
+    width: 1920px;
+    height: 646px;
+    left: 0px;
+    top: 100px;
+    
+    background: url(male-freelancer-businessman-businessman-working-cafe.jpg);}
+
+.title{
+    /* Estado de sus trámites */
+    position: absolute;
+    width: 411px;
+    height: 81px;
+    left: 279px;
+    top: 459px;
+
+    /* Titular G */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    /* or 111% */
+
+    text-transform: uppercase;
+
+    /* #333333 */
+
+    color: #FFFFFF;
+}
+
+.descriptionTittle{
+    /* Regístrese en CJI y consulte el estado de sus trámites encargados online. */
+
+
+    position: absolute;
+    width: 312px;
+    height: 41px;
+    left: 277px;
+    top: 556px;
+
+    /* Cuerpo de texto */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 144% */
+
+    /*text-decoration-line: underline;*/
+
+    /* #333333 */
+
+    color: #FFFFFF;
+}
+
+.viewStatus{
+    /* LEER MÁS */
+
+    /*position:absolute;*/
+    width: 95px;
+    height: 21px;
+    /*left: 277px;
+    top: 556px;*/
+
+    /* Text B */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 144% */
+
+    text-align: right;
+
+    /* #333333 */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex:none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.icon{
+    width: 24px;
+    height: 21px;
+
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    /* identical to box height, or 84% */
+
+
+    /* #333333 */
+
+    /*color: #FFFFFF;*/
+    color:black;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.active-list-item {
+    color: #FFFFFF !important; /* Note: You could also use a custom theme */
+    background-color: #FFFFFF;
+  }

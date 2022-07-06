@@ -1,0 +1,113 @@
+.rectangle{
+    /* Rectangle 41 */
+
+
+    position: absolute;
+    width: 546px;
+    height: 358px;
+    left: 277px;
+    top: 4172px;
+    
+    /* Style 2 */
+    
+    background-color: #455A64;
+    mix-blend-mode: normal;}
+
+.img1{
+    position: absolute;
+    width: 1366px;
+    height: 358px;
+    left: 277px;
+    top: 4172px;
+    
+    background-color: turquoise;
+    background: url(9.jpg);
+}
+
+.tittle{
+    /* servicios online */
+
+
+    position: absolute;
+    width: 394px;
+    height: 41px;
+    left: 353px;
+    top: 4233px;
+    
+    /* Titular G */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    /* or 111% */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    /* #333333 */
+    
+    color: #FFFFFF;
+}
+
+.desc{
+    /* Si desea contratar y pagar nuestros servicios DESDE EL EXTERIOR puede contactarnos a través del correo electrónico: */
+
+
+    position: absolute;
+    width: 428px;
+    height: 61px;
+    left: 336px;
+    top: 4310px;
+    
+    /* Cuerpo de texto */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 144% */
+    
+    text-align: center;
+    
+    /* #333333 */
+    
+    color: #FFFFFF;
+}
+
+.button{
+    /* VER MÁS */
+
+    position: absolute;
+    left:474px;
+    top: 4430px;
+    width: 200px;
+    height: 51px;
+    
+    /* Text B */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 144% */
+    
+    
+    /* #333333 */
+    
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;}

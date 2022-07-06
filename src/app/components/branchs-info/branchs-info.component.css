@@ -1,0 +1,685 @@
+.v1{
+    /* Vector 8 */
+
+    position:absolute;
+    top: 4651px;
+    left:278px;
+    width: 522px;
+    height: 0px;
+    
+    /* 60 */
+    
+    border: 2px solid #8F9CA2;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.v2{
+    /* Vector 9 */
+
+    position: absolute;
+    left:1123px;
+    top:4651px;
+    width: 521.5px;
+    height: 0px;
+    
+    /* 60 */
+    
+    border: 2px solid #8F9CA2;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 1;}
+
+.tittle{
+    position: absolute;
+    left:837px;
+    top: 4630px;
+    width: 249px;
+    height: 41px;
+    
+    /* Titular G */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    /* or 111% */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    /* 100 */
+    
+    color: #455A64;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+
+.desc1{
+    /* COntáctos generales */
+
+    position: absolute;
+    left:765px;
+    top:4719px;
+    width: 389px;
+    height: 21px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 144% */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    /* 100 */
+    
+    color: #455A64;
+    
+    
+    /* Inside auto layout */
+     
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.subDesc1{
+    /* Correo Institucional: cji@cji.cu Correo de servicios online: serviciostmd@cji.cu */
+
+    position: absolute;
+    top:4740px;
+    left:765px;
+    width: 389px;
+    height: 41px;
+    
+    /* Cuerpo de texto */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 144% */
+    
+    text-align: center;
+    
+    /* 100 */
+    
+    color: #455A64;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.island{
+    /* Vector */
+
+    left:356.32px;
+    top: 4971.63px;
+    position: absolute;
+    width: 596.43px;
+    height: 197.76px;
+    /*left: 18.35%;*/
+    right: 50.74%;
+    /*top: 72.8%;*/
+    /*bottom: 24.3%;*/
+    
+    background: url(island.svg);
+    background-color: #FFFFFF;
+}
+
+.pr{
+    height: 71.97px;
+    width: 117.5px;
+    position: absolute;
+    top:4981.79px;
+    left:352px;
+    background: url(PR.svg);
+}
+
+.art{
+    /* Vector */
+    position: absolute;
+    left: 459.91px;
+    top: 4983.35px;
+    height: 37.69px;
+    width: 27.88px;
+    background: url(ART.svg);
+}
+
+.lh{
+    /* Vector */
+
+
+    position: absolute;
+    left: 485px;
+    top: 4975.5px;
+    width: 26.37px;
+    height: 14.47px;
+
+    background: url(LH.svg);
+}
+
+.may{
+    position: absolute;
+    left:489.17px;
+    top:4975.5px;
+    width:48.97px;
+    height: 37.26px;
+
+    background: url(MAY.svg);
+}
+
+.mt{
+    position: absolute;
+    left:505px;
+    top:4973px;
+    height: 73.1px;
+    width:90.56px;
+
+    background: url(MT.svg);
+}
+
+.cf{
+    position:absolute;
+    left:571.18px;
+    top: 5009.68px;
+    height: 45.96px;
+    width: 52.13px;
+
+    background: url(CF.svg);
+}
+
+.vc{
+    position: absolute;
+    left:583.2px;
+    top: 4980.28px;
+    width:77.68px;
+    height: 73.37px;
+
+    background: url(VC.svg);
+}
+
+.ss{
+    position:absolute;
+    left:617.19px;
+    top: 5007.24px;
+    width:64.84px;
+    height: 68.82px;
+
+    background: url(SS.svg);
+}
+
+.ca{
+    position: absolute;
+    left:650.81px;
+    top: 5012.07px;
+    width: 71.68px;
+    height: 99.07px;
+
+    background: url(CA.svg);
+}
+
+.gy{
+    position: absolute;
+    left: 677.32px;
+    top:5019.68PX;
+    height: 118.67px;
+    width:109.77px;
+
+    background: url(GY.svg);
+}
+
+.lt{
+    position:absolute;
+    left:732.2px;
+    top:5073.69px;
+    height: 47.39px;
+    width: 84.03px;
+
+    background: url(LT.svg);
+}
+
+.gn{
+    position: absolute;
+    left:736.19px;
+    top:5112.68px;
+    height: 58.08px;
+    width: 86.94px;
+
+    background: url(GN.svg);
+}
+
+.hl{
+    position: absolute;
+    left:792.18px;
+    top:5085.72px;
+    height: 49.17px;
+    width:111.25px;
+
+    background: url(HL.svg);
+}
+
+.st{
+    position: absolute;
+    left: 780.19px;
+    top: 5123.71px;
+    height: 43.39px;
+    width:93.07px;
+
+    background: url(ST.svg);
+}
+
+.gt{
+    position:absolute;
+    left:865px;
+    top:5122.5px;
+    height: 41.73px;
+    width: 75.68px;
+
+    background: url(GT.svg);
+}
+
+.ij{
+    position:absolute;
+    left:448.29px;
+    top:5037.3px;
+    height: 40.64px;
+    width: 100.36px;
+
+    background: url(IJ.svg);
+}
+
+.provincesSelect{
+    /* Provincias */
+
+    position: absolute;
+    left:590px;
+    top:4817px;
+    
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    gap: 24px;
+    
+    width: 360px;
+    height: 37px;
+    
+    /* 20 */
+    
+    background: #DADEE0;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 4;
+    align-self: stretch;
+    flex-grow: 0;}
+
+.province{
+    /* Pinar del río */
+    
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 144% */
+    
+    text-transform: uppercase;
+    
+    /* 100 */
+    
+    color: #455A64;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 1;}
+
+.label{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 144% */
+    
+    text-transform: uppercase;
+    
+    /* 100 */
+    
+    color: #455A64;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+
+.icon{/*  */
+
+
+    width: 24px;
+    height: 21px;
+    
+    /* Material */
+    
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    /* identical to box height, or 84% */
+    
+    
+    /* 100 */
+    
+    color: #455A64;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.tittle2{
+    /* SUCURSALES DE CONSULTORÍA JURÍDICA INTERNACIONAL */
+
+    position: absolute;
+    left:983px;
+    top:4817px;
+    width: 389px;
+    height: 85px;
+    
+    /* Titular P */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    
+    
+    /* 100 */
+    
+    color: #455A64;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+
+.desc2{
+    /* Casa Matriz */
+
+    position: absolute;
+    top: 4902px;
+    left:983px;
+    width: 389px;
+    height: 21px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 144% */
+    
+    text-transform: uppercase;
+    
+    /* 100 */
+    
+    color: #455A64;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+
+.addressO{
+    /* Teléfonos: 720669603 y 72018402 Correo: cji@cji.cu */
+
+    position: absolute;
+    top: 4923px; 
+    left:983px;
+    width: 389px;
+    height: 41px;
+    
+    /* Cuerpo de texto */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 144% */
+    
+    
+    /* 100 */
+    
+    color: #455A64;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.tittle3{
+    /* Sucursal de Atención a los Servicios de Trámites Migratorios y Documentales. */
+
+    position: absolute;
+    left:983px;
+    top: 4980px;
+    width: 389px;
+    height: 41px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 144% */
+    
+    text-transform: uppercase;
+    
+    /* 100 */
+    
+    color: #455A64;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+
+.addressO1{
+    /* Teléfono: 72069643. Atención a la población: 72045702 Correo: gquintana@cji.cu. */
+
+    position: absolute;
+    left:983px;
+    top:5021px;
+    width: 389px;
+    height: 41px;
+    
+    /* Cuerpo de texto */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 144% */
+    
+    
+    /* 100 */
+    
+    color: #455A64;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+
+.tittle4{
+    /* Sucursal de Asistencia Legal */
+
+    position: absolute;
+    left:983px;
+    top: 5078px;
+    width: 389px;
+    height: 21px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 144% */
+    
+    text-transform: uppercase;
+    
+    /* 100 */
+    
+    color: #455A64;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+
+.addressO2{
+    /* Teléfono: 72041983, 72069602 Correo: dalegal@cji.cu */
+
+    position: absolute;
+    left: 983px;
+    top:5099px;
+    width: 389px;
+    height: 41px;
+    
+    /* Cuerpo de texto */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 144% */
+    
+    
+    /* 100 */
+    
+    color: #455A64;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+
+.tittle5{
+    /* Sucursal de Servicios Notariales */
+
+    position: absolute;
+    left:983px;
+    top: 5156px;
+    width: 389px;
+    height: 21px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 144% */
+    
+    text-transform: uppercase;
+    
+    /* 100 */
+    
+    color: #455A64;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+
+.addressO3{
+    /* Teléfonos. 72063244, 72069265, 72063249, 72069266. Correo: alena@cji.cu */
+
+    position: absolute;
+    left:983px;
+    top: 5177px;
+    width: 389px;
+    height: 41px;
+    
+    /* Cuerpo de texto */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 144% */
+    
+    
+    /* 100 */
+    
+    color: #455A64;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;}

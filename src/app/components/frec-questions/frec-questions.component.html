@@ -1,0 +1,60 @@
+<span class="rectangle"></span>
+<span class="v1"></span>
+<span class="v2"></span>
+<span class="tittle">{{'questions.tittle' | translate}}</span>
+<span class="desc">{{questionsSelected}}</span>
+
+<span class="q1" *ngIf="selectedFlag == 0"><b>{{questionView[0]}}</b></span>
+<span class="q1" *ngIf="selectedFlag != 0">{{questionView[0]}}</span>
+
+<button mat-button (click)="questionChange(0)">
+    <mat-icon class="i1" *ngIf="selectedFlag==0"><b>keyboard_arrow_right</b></mat-icon>
+    <mat-icon class="i1" *ngIf="selectedFlag!=0">keyboard_arrow_right</mat-icon>
+</button>
+
+<span class="v3" *ngIf="selectedFlag==0" style="border: 2px solid #6A7B83;"></span>
+<span class="v3" *ngIf="selectedFlag!=0" style="border: 2px solid #8F9CA2;"></span>
+
+<span class="q2" *ngIf="selectedFlag == 1"><b>{{questionView[1]}}</b></span>
+<span class="q2" *ngIf="selectedFlag != 1">{{questionView[1]}}</span>
+
+<button mat-button (click)="questionChange(1)">
+    <mat-icon class="i2" *ngIf="selectedFlag==1"><b>keyboard_arrow_right</b></mat-icon>
+    <mat-icon class="i2" *ngIf="selectedFlag!=1">keyboard_arrow_right</mat-icon>
+</button>
+
+<span class="v4" *ngIf="selectedFlag==1" style="border: 2px solid #6A7B83;"></span>
+<span class="v4" *ngIf="selectedFlag!=1" style="border: 2px solid #8F9CA2;"></span>
+
+<span class="q3" *ngIf="selectedFlag == 2"><b>{{questionView[2]}}</b></span>
+<span class="q3" *ngIf="selectedFlag != 2">{{questionView[2]}}</span>
+
+<button mat-button (click)="questionChange(2)">
+    <mat-icon class="i3" *ngIf="selectedFlag==2"><b>keyboard_arrow_right</b></mat-icon>
+    <mat-icon class="i3" *ngIf="selectedFlag!=2">keyboard_arrow_right</mat-icon>
+</button>
+
+<span class="v5" *ngIf="selectedFlag==2" style="border: 2px solid #6A7B83;"></span>
+<span class="v5" *ngIf="selectedFlag!=2" style="border: 2px solid #8F9CA2;"></span>
+
+<span class="q4" *ngIf="selectedFlag == 3"><b>{{questionView[3]}}</b></span>
+<span class="q4" *ngIf="selectedFlag != 3">{{questionView[3]}}</span>
+
+<button mat-button (click)="questionChange(3)">
+    <mat-icon class="i4" *ngIf="selectedFlag==3"><b>keyboard_arrow_right</b></mat-icon>
+    <mat-icon class="i4" *ngIf="selectedFlag!=3">keyboard_arrow_right</mat-icon>
+</button>
+
+<span class="v6" *ngIf="selectedFlag==3" style="border: 2px solid #6A7B83;"></span>
+<span class="v6" *ngIf="selectedFlag!=3" style="border: 2px solid #8F9CA2;"></span>
+
+<span class="q5" *ngIf="selectedFlag == 4"><b>{{questionView[4]}}</b></span>
+<span class="q5" *ngIf="selectedFlag != 4">{{questionView[4]}}</span>
+
+<button mat-button (click)="questionChange(4)">
+    <mat-icon class="i5" *ngIf="selectedFlag==4"><b>keyboard_arrow_right</b></mat-icon>
+    <mat-icon class="i5" *ngIf="selectedFlag!=4">keyboard_arrow_right</mat-icon>
+</button>
+
+<span class="v7" *ngIf="selectedFlag==4" style="border: 2px solid #6A7B83;"></span>
+<span class="v7" *ngIf="selectedFlag!=4" style="border: 2px solid #8F9CA2;"></span>

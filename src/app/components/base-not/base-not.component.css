@@ -1,0 +1,527 @@
+.rectangle{    
+    /* Rectangle 27 */
+
+
+    position: absolute;
+    width:1920px;
+    max-width: 100%;
+    height: 428px;
+    left: 0px;
+    top: 4066px;
+    
+    /* Style 2 */
+    
+    background: #455A64;}
+
+.v1{    
+    /* Vector 25 */
+
+
+    position: absolute;
+    width: 0px;
+    height: 215px;
+    left:728px;
+    top: 4119px;    
+    /* #333333 */
+    
+    border: 2px solid #FFFFFF;}
+
+.v2{
+    /* Vector 24 */
+
+    position: absolute;
+    height: 215px;
+    width: 0px;
+    left: 928px;
+    top: 4119px;
+    
+    /* #333333 */
+    
+    border: 2px solid #FFFFFF;
+}
+
+.tittle1{
+    /* Servicios legales */
+
+    position: absolute;
+    left:747px;
+    top:4112px;
+    width: 150px;
+    height: 21px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 144% */
+    
+    text-transform: uppercase;
+    
+    /* #333333 */
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+
+.tittle2{
+    /* Enlaces de interés */
+
+    position: absolute;
+    left:942px;
+    top:4112px;
+    width: 234px;
+    height: 21px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 144% */
+    
+    text-transform: uppercase;
+    
+    /* #333333 */
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+
+.s1{
+    /* ASISTENCIA LEGAL */
+
+
+    position: absolute;
+    left:747px;
+    top:4157px;
+    width: 135px;
+    height: 41px;
+    
+    /* Cuerpo de texto */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 144% */
+    
+    
+    /* #333333 */
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+
+
+.s2{
+    /* notarial */
+    
+    
+    position: absolute;
+    left:747px;
+    top:4222px;
+    width: 135px;
+    height: 41px;
+        
+    /* Cuerpo de texto */
+        
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 144% */
+        
+        
+    /* #333333 */
+        
+    color: #FFFFFF;
+        
+        
+    /* Inside auto layout */
+        
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+
+.s3{
+    /* notarial */
+        
+        
+    position: absolute;
+    left:747px;
+    top:4287px;
+    width: 135px;
+    height: 41px;
+            
+    /* Cuerpo de texto */
+            
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 144% */
+            
+            
+    /* #333333 */
+            
+    color: #FFFFFF;
+            
+            
+    /* Inside auto layout */
+            
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+
+.l1{
+    /* Gaceta Oficial de Cuba */
+
+    position: absolute;
+    left:942px;
+    top:4157px;
+    width: 161px;
+    height: 21px;
+    
+    /* Cuerpo de texto */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 144% */
+    
+    
+    /* #333333 */
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+
+.l2{
+    /* Gaceta Oficial de Cuba */
+    
+    position: absolute;
+    left:942px;
+    top:4202px;
+    width: 161px;
+    height: 21px;
+        
+    /* Cuerpo de texto */
+        
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 144% */
+        
+        
+    /* #333333 */
+        
+    color: #FFFFFF;
+        
+        
+    /* Inside auto layout */
+        
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+
+.l3{
+    /* Gaceta Oficial de Cuba */
+        
+    position: absolute;
+    left:942px;
+    top:4247px;
+    width: 161px;
+    height: 21px;
+            
+    /* Cuerpo de texto */
+            
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 144% */
+            
+            
+    /* #333333 */
+            
+    color: #FFFFFF;
+            
+            
+    /* Inside auto layout */
+            
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+
+.l4{
+    /* Gaceta Oficial de Cuba */
+        
+    position: absolute;
+    left:942px;
+    top:4292px;
+    width: 161px;
+    height: 21px;
+            
+    /* Cuerpo de texto */
+            
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 144% */
+            
+            
+    /* #333333 */
+            
+    color: #FFFFFF;
+            
+            
+    /* Inside auto layout */
+            
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+
+.l5{
+    /* Banco Central de Cuba */
+
+    position: absolute;
+    left:1240px;
+    top:4157px;
+    width: 162px;
+    height: 21px;
+    
+    /* Cuerpo de texto */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 144% */
+    
+    
+    /* #333333 */
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.l6{
+    /* Gaceta Oficial de Cuba */
+    
+    position: absolute;
+    left:1240px;
+    top:4202px;
+    width: 161px;
+    height: 21px;
+        
+    /* Cuerpo de texto */
+        
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 144% */
+        
+        
+    /* #333333 */
+        
+    color: #FFFFFF;
+        
+        
+    /* Inside auto layout */
+        
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+
+.l7{
+    /* Gaceta Oficial de Cuba */
+        
+    position: absolute;
+    left:1240px;
+    top:4247px;
+    width: 161px;
+    height: 21px;
+            
+    /* Cuerpo de texto */
+            
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 144% */
+            
+            
+    /* #333333 */
+            
+    color: #FFFFFF;
+            
+            
+    /* Inside auto layout */
+            
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+
+.l8{
+    /* Gaceta Oficial de Cuba */
+        
+    position: absolute;
+    left:1240px;
+    top:4292px;
+    width: 161px;
+    height: 21px;
+            
+    /* Cuerpo de texto */
+            
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 144% */
+            
+            
+    /* #333333 */
+            
+    color: #FFFFFF;
+            
+            
+    /* Inside auto layout */
+            
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+
+.menu1{
+    position: absolute;
+    top:4367px;
+    left:0px;
+    background-color: #455A64;
+}
+
+.item{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    text-transform: uppercase;
+
+    /* #333333 */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.v3{
+    /* | */
+
+
+    width: 6px;
+    height: 29px;
+    
+    /* Titular P */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+    
+    text-align: center;
+    
+    /* #333333 */
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+
+.contactUs{
+    /* contáctenos */
+        
+    width: 143px;
+    height: 29px;
+            
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+            
+    text-align: center;
+    text-transform: uppercase;
+            
+    /* #333333 */
+            
+    color: #FFFFFF;
+            
+            
+    /* Inside auto layout */
+            
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+    
+    
+.menu2{
+    position: absolute;
+    top: 4444.03px;
+    left:0px;
+    background-color: #455A64;
+}

@@ -1,0 +1,140 @@
+.tittle{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    /* 100 */
+    
+    color: #455A64;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+
+.v{
+    /* Vector 41 */
+
+
+    width: 0px;
+    height: 36px;
+    
+    /* 100 */
+    
+    border: 1px solid #455A64;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.iconA{width: 29px;
+    height: 20px;
+    
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 20px;
+    /* or 63% */
+    
+    text-align: center;
+    
+    /* 100 */
+    
+    color: #455A64;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+
+.lengthD{
+    /* Frame 83 */
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px 26px;
+    gap: 26px;
+    
+    /*position: absolute;*/
+    width: 286px;
+    height: 199px;
+    left: 277px;
+    top: 810px;
+    
+    /* #333333 */
+    
+    background: #FFFFFF;
+}
+.servD{
+    /* Asistencia legal */
+
+    width: 50px;
+    height: 30px;
+    padding: 0%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 156% */
+    
+    text-transform: uppercase;
+    
+    /* 100 */
+    
+    color: #455A64;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+
+
+.rectangle{
+    /* Rectangle 39 */
+
+
+    position: absolute;
+    width: 1920px;
+    max-width: 100%;
+    height: 56px;
+    left: 0px;
+    top: 756px;
+
+    /* #828282 */
+
+    background: #F9F9F9;
+}
+
+
+.example-small-box { 
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    padding: 80%;
+    border-radius: 100px;
+    height: 200px;
+    width: 100px;  
+}

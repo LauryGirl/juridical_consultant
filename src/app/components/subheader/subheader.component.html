@@ -1,0 +1,93 @@
+
+<!-- class="example-small-box mat-elevation-z4" -->
+<mat-toolbar class="rectangle">
+    <mat-toolbar-row fxLayout="row" fxLayoutAlign="center center">
+        <div>
+            <button mat-button [matMenuTriggerFor]="menu" (click)="vectorHide=1">
+                <span class="tittle">
+                    {{"subheader.legalServices" | translate}}
+                </span>
+                <mat-icon class="iconA">keyboard_arrow_down</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu">
+                <button mat-menu-item style="width: 300px; height: 50px;" routerLink="/legal-assistances" routerLinkActive="active" ariaCurrentWhenActive="page">
+                    <span class="servD"> {{"services.legalAssistance" | translate}} </span>
+                </button>
+                <button mat-menu-item style="width: 300px; height: 50px;" routerLink="/notarials" routerLinkActive="active" ariaCurrentWhenActive="page">
+                    <span class="servD">
+                        {{"services.notarial" | translate}}
+                    </span>
+                </button>
+                <button mat-menu-item style="width: 300px; height: 60px;" routerLink="/migrant-proceedings" routerLinkActive="active" ariaCurrentWhenActive="page">
+                    <span class="servD">
+                        <p>
+                            Tramites Migratorios <br> Documentales
+                        </p>
+                    </span>
+                </button>
+            </mat-menu>
+            <span class="v1" *ngIf="vectorHide == 1"></span>
+        </div>
+        <div>
+            <span class="v"></span>
+        </div>
+        <div>
+            <button mat-button routerLink="/allNews" routerLinkActive="active" ariaCurrentWhenActive="page">
+                <span class="tittle">
+                    {{"subheader.news" | translate}}
+                </span>
+            </button>
+        </div>
+        <div>
+            <span class="v"></span>
+        </div>
+        <div>
+            <button mat-button>
+                <span class="tittle">
+                    {{"subheader.aboutUs" | translate}}
+                </span>
+            </button>
+        </div>
+        <div>
+            <span class="v"></span>
+        </div>
+        <div>
+            <button mat-button>
+                <span class="tittle">
+                    {{"subheader.contactI" | translate}}
+                </span>
+            </button>
+        </div>
+        <div>
+            <span class="v"></span>
+        </div>
+        <div>
+            <button mat-button>
+                <span class="tittle">
+                    {{"subheader.branchs" | translate}}
+                </span>
+            </button>
+        </div>
+        <div>
+            <span class="v"></span>
+        </div>
+        <div>
+            <button mat-button>
+                <span class="tittle">
+                    {{"subheader.faq" | translate}}
+                </span>
+            </button>
+        </div>
+        <div>
+            <span class="v"></span>
+        </div>
+        <div>
+            <button mat-button>
+                <span class="tittle">
+                    {{"subheader.contactUs" | translate}}
+                </span>
+        </button>
+
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>

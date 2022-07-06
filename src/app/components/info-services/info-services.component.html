@@ -1,0 +1,68 @@
+<span class="v"></span>
+<span class="tittle"> {{'subheader.legalServices' | translate}} </span>
+<span class="v2"></span>
+
+<p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+
+<form>
+    <mat-form-field appearance="fill" style="left: 629px; top: 1070px;">
+      <mat-label class="label" style="padding-bottom: 50px; padding-left: 20px;">{{'services.findTittle' | translate}}</mat-label>
+
+      <input type="text" class="label"
+             placeholder="{{'services.legalAssistance' | translate}}"
+             aria-label="Number"
+             matInput
+             [formControl]="myControl"
+             [matAutocomplete]="auto">
+        <mat-icon matSuffix>search</mat-icon>
+      <mat-autocomplete #auto="matAutocomplete">
+        <mat-option *ngFor="let option of filteredOptions | async" [value]="option" class="input_">
+          {{option}}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+</form>
+
+
+<span class="img1"></span>
+<span class="img2"></span>
+<span class="img3"></span>
+
+<div class="desc1">
+    <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat...</span>
+</div>
+<div class="seeMore1">
+    <button mat-button routerLink="/legal-assistances" routerLinkActive="active" ariaCurrentWhenActive="page">
+        <span>
+            {{"services.aboutTheme" | translate}}
+        </span>
+        <mat-icon>arrow_right</mat-icon>
+    </button>
+</div>
+
+<!--<span class="desc1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat...</span>
+-->
+<span class="desc2">Servicios que se prestan a las personas naturales cubanas con residencia permanente en el exterior, a las personas extranjeras que no ostentan la condición de residentes permanentes en el territorio nacional y a personas jurídicas bajo las modalidades de sociedades mercantiles de capital totalmente extranjero y las sucursales o representaciones de entidades extranjeras radicadas en el territorio nacional.</span>
+<div class="seeMore2">
+    <button mat-button routerLink="/notarials" routerLinkActive="active" ariaCurrentWhenActive="page">
+        <span>
+            {{"services.aboutTheme" | translate}}
+        </span>
+        <mat-icon>arrow_right</mat-icon>
+    </button>
+</div>
+<span class="desc3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat...</span>
+<div class="seeMore3">
+    <button mat-button routerLink="/migrant-proceedings" routerLinkActive="active" ariaCurrentWhenActive="page">
+        <span>
+            {{"services.aboutTheme" | translate}}
+        </span>
+        <mat-icon>arrow_right</mat-icon>
+    </button>
+</div>
+<span class="legal-assistant">{{"services.legalAssistance" | translate}}</span>
+<span class="notarial">{{"services.notarial" | translate}}</span>
+<span class="migrant-proceeding">{{"services.docImmigration" | translate}}</span>
+
+
+<router-outlet></router-outlet>

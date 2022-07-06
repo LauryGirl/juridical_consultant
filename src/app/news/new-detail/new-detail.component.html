@@ -1,0 +1,17 @@
+
+  <h2>News</h2>
+  <button mat-button (click)="gotoNews()">
+    <mat-icon>keyboard_backspace</mat-icon>
+  </button>
+  
+  <div *ngIf="new_$ | async as new">
+  
+      <h2>{{new.tittle | uppercase}} Details</h2>
+      <div><span>id: </span>{{new.id}}</div>
+      <div>
+        <label for="new-tittle">New Tittle: </label>
+        <input id="new-tittle" [(ngModel)]="new.tittle" placeholder="tittle">
+      </div>
+    
+  </div>
+

@@ -1,0 +1,72 @@
+input{
+  display:block;
+}
+
+/*
+.type{
+  /* Frame 21 
+
+
+  box-sizing: border-box;
+  
+  /* Auto layout 
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 14px 16px;
+  gap: 16px;
+  
+  position: absolute;
+  width: 381px;
+  height: 49px;
+  
+  /* #333333 
+  
+  background: #FFFFFF;
+  /* #000000 
+  
+  border: 2px solid #828282;}
+*/
+
+mat-card {
+  max-width: 400px;
+  margin: 2em auto;
+  text-align: center;
+  width: 429px;
+  height: 423px;
+
+  background: white;
+  border-radius: 8px;
+}
+
+mat-form-field{
+  display: block;
+}
+
+.back{
+  width:auto;
+  display: block;
+}
+
+.tittle{
+  /* autenticación */
+
+  width: 309px;
+  height: 41px;
+  
+  /* Titular G */
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 40px;
+  /* or 111% */
+  
+  text-transform: uppercase;
+  
+  /* Style */
+  
+  color: #333333;}

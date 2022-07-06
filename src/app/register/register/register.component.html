@@ -1,0 +1,64 @@
+
+<mat-card  fxLayout="column" fxLayoutAlign="space-around">
+
+  <button class="back" mat-button (click)="gotoHome()" fxLayoutAlign="end">
+    <mat-icon>clear</mat-icon>
+  </button>
+
+  <h2 class="tittle">{{'login.register' | translate}}</h2>
+
+  <mat-card-content>
+    <form #loginForm="ngForm" (ngSubmit)="register()">
+      <!--<mat-error *ngIf="!loginValid">
+        {{'login.notRecognized' | translate}}
+      </mat-error> -->
+
+      <mat-form-field>
+        <input matInput appearance="outline" placeholder="{{'login.namePlaceHolder' | translate}}" [(ngModel)]="name" name="name" required>
+        <!--<mat-error>
+          {{'login.emailNotValid' | translate}}
+        </mat-error> -->
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput appearance="outline" placeholder="{{'login.lastNamePlaceHolder' | translate}}" [(ngModel)]="lastName" name="lastName" required>
+        <!--<mat-error>
+          {{'login.emailNotValid' | translate}}
+        </mat-error> -->
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput appearance="outline" placeholder="{{'login.emailPlaceHolder' | translate}}" [(ngModel)]="email" name="email" required>
+        <!--<mat-error>
+          {{'login.emailNotValid' | translate}}
+        </mat-error> -->
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput [type]="hide1 ? 'password' : 'text'" placeholder="{{'login.passwordPlaceHolder' | translate}}" [(ngModel)]="password" name="password" required>
+        <mat-icon matSuffix (click)="hide1 = !hide1"> {{hide1 ? 'visibility_off' : 'visibility'}}</mat-icon>
+        <!--<mat-error>
+          {{'login.passwordNotValid' | translate}}
+        </mat-error> -->
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput [type]="hide2 ? 'password' : 'text'" placeholder="{{'login.repeatPassPlaceHolder' | translate}}" [(ngModel)]="password" name="password" required>
+        <mat-icon matSuffix (click)="hide2 = !hide2"> {{hide2 ? 'visibility_off' : 'visibility'}}</mat-icon>
+        <!--<mat-error>
+          {{'login.passwordNotValid' | translate}}
+        </mat-error> -->
+      </mat-form-field>
+
+      <button mat-raised-button color="primary" [disabled]="!loginForm.form.valid">{{'login.register' | translate}}</button>
+      <br>    
+    </form>
+
+  </mat-card-content>
+
+  
+  <p> <u> <a mat-list-item routerLink="/register" routerLinkActive="active-list-item" ariaCurrentWhenActive="page">{{"login.passwordForget" | translate}}</a></u> </p>
+
+  <p> {{'login.withAccount' | translate}} <u> <a mat-list-item routerLink="/login" routerLinkActive="active-list-item" ariaCurrentWhenActive="page">{{'login.login' | translate}}</a></u>  </p>
+
+</mat-card>

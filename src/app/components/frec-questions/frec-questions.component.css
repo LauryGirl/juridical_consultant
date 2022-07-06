@@ -1,0 +1,433 @@
+.rectangle{
+    /* Rectangle 40 */
+
+
+    position: absolute;
+    width: 1920px;
+    max-width: 100%;
+    height: 494px;
+    left: 1px;
+    top: 5318px;
+    
+    /* 10 */
+    
+    background: #ECEEEF;}
+
+.v1{
+    /* Vector 8 */
+
+    position:absolute;
+    left:277px;
+    top:5386.5px;
+    width: 401.5px;
+    height: 0px;
+    
+    /* 60 */
+    
+    border: 2px solid #8F9CA2;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 1;}
+
+.v2{
+    /* Vector 9 */
+
+    position: absolute;
+    top:5386.5px;
+    left:1241.5px;
+    width: 401.5px;
+    height: 0px;
+    
+    /* 60 */
+    
+    border: 2px solid #8F9CA2;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 1;}
+
+.tittle{
+    /* contamos con */
+
+    position: absolute;
+    left:715.5px;
+    top:5366px;
+    width: 489px;
+    height: 41px;
+    
+    /* Titular G */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    /* or 111% */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    /* 100 */
+    
+    color: #455A64;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+
+.desc{
+    /* Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam. */
+
+
+    position: absolute;
+    width: 663px;
+    height: 306px;
+    left: 980px;
+    top: 5458px;
+    
+    /* Cuerpo de texto */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 144% */
+    
+    
+    /* 100 */
+    
+    color: #455A64;
+}
+
+.questions{
+    position: absolute;
+    left:277px;
+    top:5455px;
+    width: 665px;
+    height: 309px;
+    background-color: aqua;
+}
+
+.q1{
+    position: absolute;
+    height: 41px;
+    width: 601px;
+    left:293px;
+    top: 5462px;
+
+    /* Cuerpo de texto */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 144% */
+    
+    
+    /* 80 */
+    
+    color: #6A7B83;}
+
+.v3{/* Vector 8 */
+
+
+    position: absolute;
+    left: 278px;
+    top: 5515px;
+    width: 660px;
+    height: 0px;
+    /*left: 0%;
+    right: 0%;
+    top: 101.92%;
+    bottom: -1.92%;*/
+    
+    /* 80 */
+    
+    /*border: 2px solid #6A7B83;*/}
+
+.i1{
+    /*  */
+
+
+    position: absolute;
+    width: 24px;
+    height: 21px;
+    left: 918px;
+    top: 5458px;
+
+    /* Material */
+    
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    /* identical to box height, or 84% */
+    
+    
+    /* 80 */
+    
+    color: #6A7B83;
+}
+
+.q2{
+    position: absolute;
+    height: 41px;
+    width: 601px;
+    left:293px;
+    top: 5523px;
+
+    /* Cuerpo de texto */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 144% */
+    
+    
+    /* 80 */
+    
+    color: #6A7B83;}
+
+.v4{/* Vector 8 */
+
+
+    position: absolute;
+    left: 278px;
+    top: 5579px;
+    width: 660px;
+    height: 0px;
+    /*left: 0%;
+    right: 0%;
+    top: 101.92%;
+    bottom: -1.92%;*/
+    
+    /* 80 */
+    
+    border: 2px solid #6A7B83;}
+
+.i2{
+    /*  */
+
+
+    position: absolute;
+    width: 24px;
+    height: 21px;
+    left: 855px;
+    top: 5522px;
+
+    /* Material */
+    
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    /* identical to box height, or 84% */
+    
+    
+    /* 80 */
+    
+    color: #6A7B83;
+}
+
+.q3{
+    position: absolute;
+    height: 41px;
+    width: 601px;
+    left:293px;
+    top: 5590px;
+
+    /* Cuerpo de texto */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 144% */
+    
+    
+    /* 80 */
+    
+    color: #6A7B83;}
+
+.v5{/* Vector 8 */
+
+
+    position: absolute;
+    left: 278px;
+    top: 5643px;
+    width: 660px;
+    height: 0px;
+    /*left: 0%;
+    right: 0%;
+    top: 101.92%;
+    bottom: -1.92%;*/
+    
+    /* 80 */
+    
+    border: 2px solid #6A7B83;}
+
+.i3{
+    /*  */
+
+
+    position: absolute;
+    width: 24px;
+    height: 21px;
+    left: 790px;
+    top: 5587px;
+
+    /* Material */
+    
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    /* identical to box height, or 84% */
+    
+    
+    /* 80 */
+    
+    color: #6A7B83;
+}
+
+.q4{
+    position: absolute;
+    height: 41px;
+    width: 601px;
+    left:293px;
+    top: 5654px;
+
+    /* Cuerpo de texto */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 144% */
+    
+    
+    /* 80 */
+    
+    color: #6A7B83;}
+
+.v6{/* Vector 8 */
+
+
+    position: absolute;
+    left: 278px;
+    top: 5707px;
+    width: 660px;
+    height: 0px;
+    /*left: 0%;
+    right: 0%;
+    top: 101.92%;
+    bottom: -1.92%;*/
+    
+    /* 80 */
+    
+    border: 2px solid #6A7B83;}
+
+.i4{
+    /*  */
+
+
+    position: absolute;
+    width: 24px;
+    height: 21px;
+    left: 728px;
+    top: 5654px;
+
+    /* Material */
+    
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    /* identical to box height, or 84% */
+    
+    
+    /* 80 */
+    
+    color: #6A7B83;
+}
+
+.q5{
+    position: absolute;
+    height: 41px;
+    width: 601px;
+    left:293px;
+    top: 5718px;
+
+    /* Cuerpo de texto */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 144% */
+    
+    
+    /* 80 */
+    
+    color: #6A7B83;}
+
+.v7{/* Vector 8 */
+
+
+    position: absolute;
+    left: 278px;
+    top: 5771px;
+    width: 660px;
+    height: 0px;
+    /*left: 0%;
+    right: 0%;
+    top: 101.92%;
+    bottom: -1.92%;*/
+    
+    /* 80 */
+    
+    border: 2px solid #6A7B83;}
+
+.i5{
+    /*  */
+
+
+    position: absolute;
+    width: 24px;
+    height: 21px;
+    left: 662px;
+    top: 5718px;
+
+    /* Material */
+    
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    /* identical to box height, or 84% */
+    
+    
+    /* 80 */
+    
+    color: #6A7B83;
+}

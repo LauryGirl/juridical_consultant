@@ -1,0 +1,42 @@
+
+<mat-card  fxLayout="column" fxLayoutAlign="space-around">
+
+  <button class="back" mat-button (click)="gotoHome()" fxLayoutAlign="end">
+    <mat-icon>clear</mat-icon>
+  </button>
+
+  <h2 class="tittle">{{'login.loginTittle' | translate}}</h2>
+
+  <mat-card-content>
+    <form #loginForm="ngForm" (ngSubmit)="login()">
+      <!--<mat-error *ngIf="!loginValid">
+        {{'login.notRecognized' | translate}}
+      </mat-error> -->
+      <mat-form-field>
+        <input matInput appearance="outline" placeholder="{{'login.emailPlaceHolder' | translate}}" [(ngModel)]="email" name="email" required>
+        <!--<mat-error>
+          {{'login.emailNotValid' | translate}}
+        </mat-error> -->
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput [type]="hide ? 'password' : 'text'" placeholder="{{'login.passwordPlaceHolder' | translate}}" [(ngModel)]="password" name="password" required>
+        <mat-icon matSuffix (click)="hide = !hide"> {{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+        <!--<mat-error>
+          {{'login.passwordNotValid' | translate}}
+        </mat-error> -->
+      </mat-form-field>
+
+      <button mat-raised-button color="primary" [disabled]="!loginForm.form.valid">{{'login.login' | translate}}</button>
+      <br>    
+    </form>
+
+  </mat-card-content>
+
+  
+  <p> <u> <a mat-list-item routerLink="/register" routerLinkActive="active-list-item" ariaCurrentWhenActive="page">{{"login.passwordForget" | translate}}</a></u> </p>
+
+  <p> {{'login.withoutAccount' | translate}} <u> <a mat-list-item routerLink="/register" routerLinkActive="active-list-item" ariaCurrentWhenActive="page">{{'login.createAccount' | translate}}</a></u>  </p>
+
+
+</mat-card>

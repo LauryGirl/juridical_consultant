@@ -1,0 +1,122 @@
+<mat-toolbar class="header">
+    <mat-toolbar-row class="square">
+        <div class="logo">
+            <span>Introducir logo</span>     
+        </div>
+        <span class="example-spacer"></span>
+        <div>
+            <button mat-button [matMenuTriggerFor]="menu">
+                <mat-icon class="iw">language</mat-icon>
+                <span class="language">
+                    EN-ES
+                </span>
+                <mat-icon class="ia">keyboard_arrow_down</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu">
+                <button mat-menu-item (click)="selectLanguage($event)" value="en-US">
+                    <span class="servD">{{'language.english' | translate}}</span>
+                </button>
+                <button mat-menu-item (click)="selectLanguage($event)" value="es-ES">
+                    <span class="servD">{{'language.spanish' | translate}}</span>
+                </button>
+            </mat-menu>
+      </div>
+    </mat-toolbar-row>
+</mat-toolbar>
+
+<mat-toolbar class="menu1">
+    <mat-toolbar-row fxLayout="row" fxLayoutAlign="center center">
+        <div>
+            <button mat-button [matMenuTriggerFor]="menu1">
+                <span class="item">
+                    {{"subheader.legalServices" | translate}}
+                </span>
+                <mat-icon class="icon">keyboard_arrow_up</mat-icon>
+            </button>
+
+            <mat-menu #menu1="matMenu">
+                <button mat-menu-item style="width: 300px; height: 50px;" routerLink="/legal-assistances" routerLinkActive="active" ariaCurrentWhenActive="page">
+                    <span class="servD"> {{"services.legalAssistance" | translate}} </span>
+                </button>
+                <button mat-menu-item style="width: 300px; height: 50px;" routerLink="/notarials" routerLinkActive="active" ariaCurrentWhenActive="page">
+                    <span class="servD">
+                        {{"services.notarial" | translate}}
+                    </span>
+                </button>
+                <button mat-menu-item style="width: 300px; height: 60px;" routerLink="/migrant-proceedings" routerLinkActive="active" ariaCurrentWhenActive="page">
+                    <span class="servD">
+                        <p>
+                            Tramites Migratorios <br> Documentales
+                        </p>
+                    </span>
+                </button>
+            </mat-menu>
+        </div>
+        <div>
+            <span class="v3"></span>
+        </div>
+        <div>
+            <button mat-button routerLink="/allNews" routerLinkActive="active" ariaCurrentWhenActive="page">
+                <span class="item">
+                    {{"subheader.news" | translate}}
+                </span>
+            </button>
+        </div>
+        <div>
+            <span class="v3"></span>
+        </div>
+        <div>
+            <button mat-button>
+                <span class="item">
+                    {{"subheader.aboutUs" | translate}}
+                </span>
+            </button>
+        </div>
+        <div>
+            <span class="v3"></span>
+        </div>
+        <div>
+            <button mat-button>
+                <span class="item">
+                    {{"subheader.contactI" | translate}}
+                </span>
+            </button>
+        </div>
+        <div>
+            <span class="v3"></span>
+        </div>
+        <div>
+            <button mat-button>
+                <span class="item">
+                    {{"subheader.branchs" | translate}}
+                </span>
+            </button>
+        </div>
+        <div>
+            <span class="v3"></span>
+        </div>
+        <div>
+            <button mat-button>
+                <span class="item">
+                    {{"subheader.faq" | translate}}
+                </span>
+            </button>
+        </div>
+        <div>
+            <span class="v3"></span>
+        </div>
+        <div>
+            <button mat-button>
+                <span class="item">
+                    {{"subheader.contactUs" | translate}}
+                </span>
+        </button>
+
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>
+
+<span class="imgPos"></span>
+<span class="rectangle"></span>
+<span class="tittle">{{"services.docImmigration" | translate}}</span>
+<span class="desc">{{"docInmigration.desc" | translate}}</span>

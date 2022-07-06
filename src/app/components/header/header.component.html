@@ -1,0 +1,25 @@
+<mat-toolbar class="header">
+    <mat-toolbar-row class="square">
+        <div class="logo">
+            <span>Introducir logo</span>     
+        </div>
+        <span class="example-spacer"></span>
+        <div>
+            <button mat-button [matMenuTriggerFor]="menu">
+                <mat-icon class="iconL">language</mat-icon>
+                <span class="language">
+                    EN-ES
+                </span>
+                <mat-icon class="iconA">keyboard_arrow_down</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu">
+                <button mat-menu-item (click)="selectLanguage($event)" value="en-US">
+                    <span class="servD">{{'language.english' | translate}}</span>
+                </button>
+                <button mat-menu-item (click)="selectLanguage($event)" value="es-ES">
+                    <span class="servD">{{'language.spanish' | translate}}</span>
+                </button>
+            </mat-menu>
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>

@@ -1,0 +1,17 @@
+button {
+    margin-top: 1rem;
+  }
+  
+label {
+    display: block;
+    margin-bottom: .5rem;
+  }
+
+  .position{
+    position: relative;
+    width: 1920px;
+    height: 8522px;
+  
+    background: #FFFFFF;
+  }
+  

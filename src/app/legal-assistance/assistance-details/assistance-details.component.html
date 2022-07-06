@@ -1,0 +1,28 @@
+<div mat-dialog-actions class="pos1">
+  <mat-icon class="bClose" (click)="onNoClick()">clear</mat-icon>
+</div> 
+<div mat-dialog-content>
+  <p class="item">Para:</p>
+</div>
+<h1 mat-dialog-title class="item2">serviciostmd@cji.cu</h1>
+<div mat-dialog-content>
+  <p class="item">Asunto:</p>
+</div>
+<h1 mat-dialog-title class="item3"> {{data.tittle}}</h1>
+<div mat-dialog-content>
+  <form>
+    <mat-form-field appearance="legacy" style="width:429px; height: 180px;"> 
+        <mat-label class="label">Mensaje</mat-label>
+        <textarea matInput type="text" class="label1" style="height: 100px;"> </textarea>
+    </mat-form-field>    
+  </form>
+</div>
+
+<div mat-dialog-actions>
+  <p style="width:150px;"></p>
+  <p>
+  <button mat-button class="b">
+      <span class="send">ENVIAR</span>
+  </button>  
+  </p>
+</div>

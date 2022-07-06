@@ -1,0 +1,279 @@
+.rectangle{
+    /* Rectangle 46 */
+
+    position: absolute;
+    width: 1920px;
+    max-width: 100%;
+    height: 405px;
+    left: 0px;
+    top: 2688px;
+    
+    /* Style 2 */
+    
+    /*background: #455A64;*/
+    background: url(3.jpg);
+    background-blend-mode: multiply;
+    opacity: 0.4;}
+
+.rectangle2{
+    /* Rectangle 46 */
+    
+    position: absolute;
+    width: 1920px;
+    max-width: 100%;
+    height: 405px;
+    left: 0px;
+    top: 2688px;
+        
+    /* Style 2 */
+        
+    background: black;
+}
+
+.tittle{
+    position: absolute;
+    width: 352px;
+    height: 41px;
+    top:2749px;
+    left:785px;
+    /* Titular G */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    /* or 111% */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    /* #333333 */
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+
+.v1{   
+    /* Vector 8 */
+
+    position:absolute;
+    width: 470px;
+    height: 0px;
+    left: 278px;
+    top: 2770px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+    border: 2px solid #FFFFFF;
+}
+
+.v2{
+    /* Vector 9 */
+
+    position:absolute;
+    left: 1174px;
+    top:2770px;
+    width: 470px;
+    height: 0px;
+    
+    /* #333333 */
+    
+    border: 2px solid #FFFFFF;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 1;}
+
+.desc{
+    /*  */
+
+
+    position: absolute;
+    width: 581px;
+    height: 121px;
+    left: 670px;
+    top: 2826px;
+    
+    /* Cuerpo de texto */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 144% */
+    
+    text-align: center;
+    color:#FFFFFF;
+}
+
+.button{
+    /* VER MÁS */
+    border-color: #FFFFFF;
+    
+    /* Inside auto layout */
+    
+    /* Text B */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 144% */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    border: 2px solid #FFFFFF;
+    /*background-color: white;*/
+    color: #FFFFFF;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+
+    position: absolute;
+    top: 2997px;
+    left:870px;
+    width: 160px;
+    height: 51px;    
+}
+
+.tittle2{
+
+    position: absolute;
+    left:730px;
+    top:3193px;
+    width: 462px;
+    height: 41px;
+    
+    /* Titular G */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    /* or 111% */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    /* 100 */
+    
+    color: #455A64;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+
+.v3{
+    position: absolute;
+    top:3214px;
+    left:278px;
+    width: 415px;
+    height: 0px;
+    
+    /* 60 */
+    
+    border: 2px solid #8F9CA2;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.v4{
+    position: absolute;
+    top:3214px;
+    left:1229px;
+    width: 415px;
+    height: 0px;
+    
+    /* 60 */
+    
+    border: 2px solid #8F9CA2;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 1;}
+
+.logo1{
+    /* logo_footer */
+
+
+    position: absolute;
+    width: 184px;
+    height: 100px;
+    left: 277px;
+    top: 3327px;
+    background: url(4.jpg);}
+
+.logo2{
+    /* bcc */
+
+
+    position: absolute;
+    width: 182px;
+    height: 84px;
+    left: 522px;
+    top: 3345px;
+    
+    background: url(5.jpg);
+}
+
+.logo3{
+    position: absolute;
+    width: 183px;
+    height: 128px;
+    left: 765px;
+    top: 3323px;
+    
+    background: url(6.jpg);
+}
+
+.logo4{
+    /* gaceta_oficial_0 */
+
+
+    position: absolute;
+    width: 286px;
+    height: 149px;
+    left: 1009px;
+    top: 3312px;
+    
+    background: url(7.jpg);
+}
+
+.logo5{
+    /* logo */
+
+
+    position: absolute;
+    width: 286px;
+    height: 114px;
+    left: 1356px;
+    top: 3330px;
+    
+    background: url(8.jpg);
+}

@@ -1,0 +1,218 @@
+.rectangle{
+    /* Rectangle 40 */
+
+
+    position: absolute;
+    width: 1920px;
+    max-width: 100%;
+    height: 399px;
+    left: 1px;
+    top: 3673px;
+    
+    /* #828282 */
+    
+    background: #ECEEEF;
+}
+
+.v{/* Vector 21 */
+
+    position: absolute;
+    width: 489px;
+    height: 0px;
+    left: 278px;
+    top: 3742px;
+    
+    /* #D9D9D9 */
+    
+    border: 2px solid #8F9CA2;
+}
+
+.tittle{
+    /* contamos con */
+
+
+    position: absolute;
+    width: 313px;
+    height: 41px;
+    left: 804px;
+    top: 3721px;
+    
+    /* Titular G */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    /* or 111% */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    /* Style */
+    
+    color: #455A64;
+}
+
+.v2{/* Vector 22 */
+
+
+    position: absolute;
+    width: 491px;
+    height: 0px;
+    left: 1152px;
+    top: 3742px;
+    
+    /* #D9D9D9 */
+    
+    border: 2px solid #8F9CA2;
+}
+
+.nBranchs{
+    /* 18 */
+
+
+    position: absolute;
+    width: 127px;
+    height: 41px;
+    left: 547px;
+    top: 3888px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 40px;
+    /* or 40% */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    /* Style */
+    
+    color: #455A64;
+}
+
+.nOffices{
+    /* 6 */
+
+
+    position: absolute;
+    width: 127px;
+    height: 41px;
+    left: 897px;
+    top: 3888px;
+        
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 40px;
+    /* or 40% */
+        
+    text-align: center;
+    text-transform: uppercase;
+        
+    /* Style */
+    color: #455A64;
+}
+    
+.nYears{/* 20 */
+
+
+    position: absolute;
+    width: 127px;
+    height: 41px;
+    left: 1248px;
+    top: 3888px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 40px;
+    /* or 40% */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    /* 100 */
+    
+    color: #455A64;
+
+}
+
+.branchsW{
+    /* SUCURSALES */
+
+    position: absolute;
+    width: 195px;
+    height: 35px;
+    left: 512px;
+    top: 3983px;
+    
+    /* Titular M */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    /* or 142% */
+    
+    text-align: center;
+    
+    /* 100 */
+    
+    color: #455A64;    
+}
+
+.officeW{
+    /* OFICINAS */
+
+    position: absolute;
+    width: 194px;
+    height: 35px;
+    left: 863px;
+    top: 3989px;
+    
+    /* Titular M */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    /* or 142% */
+    
+    text-align: center;
+    
+    /* 100 */
+    
+    color: #455A64;
+}
+
+.yearsW{
+    /* AÑOS DE EXPERIENCIA */
+
+    position: absolute;
+    width: 429px;
+    height: 35px;
+    left: 1097px;
+    top: 3989px;
+    
+    /* Titular M */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    /* or 142% */
+    
+    text-align: center;
+    
+    /* 100 */
+    
+    color: #455A64;
+}

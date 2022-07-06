@@ -1,0 +1,180 @@
+.logo{
+    max-width: 100%;
+    width: 222px;
+    height: 54.01px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.language{
+    max-width: 100%;
+    width: 54px;
+    height: 29px;
+    
+    /* Titular P */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    /* Style */
+    
+    color: #455A64;
+
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+
+.v{
+    width: 0px;
+    height: 48px;
+    
+    /* Style */
+    
+    border: 2px solid #333333;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.iconL{
+    width: 24px;
+    height: 21px;
+    
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    /* identical to box height, or 84% */
+    
+    
+    /* 100 */
+    
+    color: #455A64;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+    
+.iconA{
+    width: 24px;
+    height: 21px;
+    
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    /* identical to box height, or 84% */
+    
+    
+    /* 100 */
+    
+    color: #455A64;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;}
+
+.in{/* Ellipse 1 */
+
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    
+    /* Style */
+    
+    background: #333333;
+    
+}
+
+.header{
+    /* Recurso 1 1 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 23px 24px;
+    gap: 24px;
+
+    position: absolute;
+    max-width: 100%;
+    width: 1920px;
+    height: 100.01px;
+    left: 0px;
+    top: 0px;
+
+    /* #333333 */
+
+    background: #FFFFFF;
+}
+
+.square{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 24px;
+    
+    width: 1366px;
+    height: 54.01px;
+    max-width: 100%;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+.servD{
+    /* Asistencia legal */
+
+    width: 50px;
+    height: 30px;
+    padding: 0%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 156% */
+    
+    text-transform: uppercase;
+    
+    /* 100 */
+    
+    color: #455A64;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;}

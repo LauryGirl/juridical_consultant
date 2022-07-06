@@ -1,0 +1,99 @@
+{
+    "language": {
+        "english": "English",
+        "spanish": "Spanish"
+    },
+    "login":{
+        "login":"Login",
+        "loginTittle": "Authenticate",
+        "register":"Register",
+        "notRecognized": "The email or password were not recognized",
+        "emailNotValid": "Please provide a valid email address",
+        "passwordNotValid": "Please provide a valid password",
+        "namePlaceHolder": "NAME *",
+        "lastNamePlaceHolder": "LAST NAME *",
+        "emailPlaceHolder": "EMAIL *",
+        "passwordPlaceHolder": "PASSWORD *",
+        "repeatPassPlaceHolder": "REPEAT PASSWORD *",
+        "passwordForget": "Forguet the password",
+        "withoutAccount": "Don't have a account?",
+        "withAccount": "Have a account?",
+        "createAccount": "Create account"
+    },
+    "Status": {
+        "title": "Status of your procedures",
+        "description1": "Register with CJI ",
+        "description2": "and check the status of your procedures ordered online",
+        "see": "SEE STATUS"
+    },
+    "subheader": {
+        "legalServices": "Legal Services",
+        "news": "News",
+        "aboutUs": "About us",
+        "contactI": "Contacts of interest",
+        "branchs": "Branchs offices",
+        "offices": "Offices",
+        "years": "years of experience",
+        "faq": "faq",
+        "contactUs": "Contact Us"
+    },
+    "services": {
+        "findTittle": "What service do you want to know about?",
+        "legalAssistance": "Legal Assistance",
+        "notarial": "Notarial",
+        "docImmigration": "Documentary Immigration Procedures",
+        "onlineS": "online services",
+        "aboutTheme": "About the topic",
+        "seeMore": "See More",
+        "readMore": "READ MORE",
+        "knowMore": "LEARN MORE",
+        "onlineDesc1": "If you wish to hire and pay for our services",
+        "onlineDesc2": "FROM ABROAD,",
+        "onlineDesc3": "you can contact us via email:"
+    },
+    "branchs":{
+        "generalC": "General contacts",
+        "contacts1": "Institutional email: cji@cji.cu",
+        "contacts2": "Online services email: serviciostmd@cji.cu",
+        "desc1": "INTERNATIONAL LEGAL",
+        "desc2": "CONSULTANCY BRANCHES",
+        "house": "MATRIX HOUSE",
+        "phone": "Telephones: 720669603 and 72018402",
+        "email": "Email: cji@cji.cu",
+        "desc3": "BRANCH OF ATTENTION TO THE SERVICES OF",
+        "desc4": "IMMIGRATION AND DOCUMENTARY PROCEDURES.",
+        "phone1": "Telephone: 72069643. Attention to the population: 72045702",
+        "email1": "Email: gquintana@cji.cu.",
+        "desc5": "LEGAL ASSISTANCE BRANCH",
+        "phone2": "Telephones: 72041983, 72069602",
+        "email2": "Email: dalegal@cji.cu",
+        "desc6": "NOTARIAL SERVICES BRANCH",
+        "phone3": "Telephones. 72063244, 72069265, 72063249, 72069266.",
+        "email3": "Email: alena@cji.cu"
+
+    },
+    "questions":{
+        "tittle": "Frequent questions"
+    },
+    "counting":{
+        "counting": "We have",
+        "about": "International Legal Consulting is a specialized Cuban law firm that offers its clients security, speed, quality, personalized attention and individualization of assistance services and legal advice in all branches of law, notarial services and the solution of their immigration and documentary procedures through natural and legal persons, Cuban and foreign with residence inside and outside of Cuba, complying with current legislation."
+    },
+    "base":{
+        "links": "Enlaces de interes",
+        "gaceta": "Gaceta oficial de Cuba",
+        "stadistics": "Estadisticas"
+    },
+    "legalAssistanceT":{
+        "desc": "En cada caso las Tarifas aplicables para cada uno de los servicios contratados se establecen conforme a lo regulado en la legislación cubana vigente.",
+        "findTittle": "buscar asistencia legal"
+    },
+    "notarial":{
+        "desc": "Servicios que se prestan a las personas naturales cubanas con residencia permanente en el exterior, a las personas extranjeras que no ostentan la condición de residentes permanentes en el territorio nacional y a personas jurídicas bajo las modalidades de sociedades mercantiles de capital totalmente extranjero y las sucursales o representaciones de entidades extranjeras radicadas en el territorio nacional.",
+        "findTittle": "buscar notariales"
+    },
+    "docInmigration":{
+        "desc": "En cada caso las Tarifas aplicables para cada uno de los servicios contratados se establecen conforme a lo regulado en la legislación cubana vigente.",
+        "findTittle": "BUSCAR TRÁMITE MIGRATORIO O DOCUMENTAL"
+    }
+}

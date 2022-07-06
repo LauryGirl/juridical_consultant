@@ -1,0 +1,107 @@
+<div fxLayout="column" fxLayoutAlign="space-between stretch">
+  <div>
+    <app-header-mig> </app-header-mig>
+  </div>
+  
+  <app-base-mig> </app-base-mig>  
+</div>
+
+<form class="exForm">
+  <mat-form-field appearance="legacy" style="width:750px;">
+    <mat-label class="label">{{'docInmigration.findTittle' | translate}}</mat-label>
+
+    <input type="text"
+           aria-label="Number"
+           matInput
+           [formControl]="myControl"
+           [matAutocomplete]="auto">
+      <mat-icon matSuffix class="iSearch" (click)="routerAss()">search</mat-icon>
+    <mat-autocomplete #auto="matAutocomplete">
+      <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+        {{option}}
+      </mat-option>
+    </mat-autocomplete>
+  </mat-form-field>
+</form>
+
+<button mat-button (click)="gotoHome()" fxLayoutAlign="end">
+  <mat-icon class="iconLeft">keyboard_backspace</mat-icon>
+</button>
+
+
+<div class="rectangle" fxLayout="column" fxLayoutAlign="start start">
+  <mat-tab-group>
+    <ul>
+    <mat-tab class="labelTab" label="Migratorios"> 
+            <br> <br>
+            <div *ngFor="let a of proc$ | async" [class.selected]="a.id === selectedId">
+              <div>
+                <p class="tittle" *ngIf="(a.id >= startId) && (a.id <= finishId)">{{a.tittle}}</p>
+              </div>
+              <div>
+                <p class="desc" *ngIf="a.id >= startId && (a.id <= finishId)">{{a.description}}</p>  
+              </div>
+              <div>
+                <p class="price" *ngIf="a.id >= startId && (a.id <= finishId)">{{a.price}}</p>  
+              </div>
+              <div *ngIf="a.id >= startId && (a.id <= finishId)">
+                <button mat-button (click)="openDialog(a.tittle)" style="left:630px; width:114px;">
+                  <span class="bIn">
+                      solicitar
+                  </span>
+                  <mat-icon class="iconA">arrow_right</mat-icon>
+                </button>  
+              </div>
+              <br>   
+              <div *ngIf="a.id >= startId && (a.id <= finishId)">
+                <p class="v"></p>
+              </div> 
+              <br>    
+            </div>      
+      </mat-tab>
+    </ul>  
+    <ul>
+      <mat-tab label="Documentales">
+        <br> <br>
+        <div *ngFor="let a of proc$ | async" [class.selected]="a.id === selectedId">
+          <div>
+            <p class="tittle" *ngIf="(a.id >= startId) && (a.id <= finishId)">{{a.tittle}}</p>
+          </div>
+          <div>
+            <p class="desc" *ngIf="a.id >= startId && (a.id <= finishId)">{{a.description}}</p>  
+          </div>
+          <div>
+            <p class="price" *ngIf="a.id >= startId && (a.id <= finishId)">{{a.price}}</p>  
+          </div>
+          <div *ngIf="a.id >= startId && (a.id <= finishId)">
+            <button mat-button (click)="openDialog(a.tittle)" style="left:630px; width:114px;">
+              <span class="bIn">
+                  solicitar
+              </span>
+              <mat-icon class="iconA">arrow_right</mat-icon>
+            </button>  
+          </div>
+          <br>   
+          <div *ngIf="a.id >= startId && (a.id <= finishId)">
+            <p class="v"></p>
+          </div> 
+          <br>    
+        </div>      
+  </mat-tab>
+    </ul>
+  </mat-tab-group>
+  </div>
+
+  
+<mat-icon class="iconDown" (click)="changeStartId()">keyboard_arrow_down</mat-icon>
+
+<span class="others">Otros servicios</span>
+<span class="img1Others"></span>
+<span class="img2Others"></span>
+
+<p style="top:732px;" class="tittleOthers">Migratorios Documentales</p>
+<p style="top:762px;" class="descOthers">Migratorios Documentales</p>
+<p style="top:845px;" class="tittleOthers">Migratorios Documentales</p>
+<p style="top:875px;" class="descOthers">Migratorios Documentales</p>
+
+<mat-icon class="iconUp" (click)="scrollTop()">arrow_upward</mat-icon>
